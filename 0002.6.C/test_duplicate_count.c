@@ -7,4 +7,7 @@ Test(Sample_Cases, should_pass_these_three_tests) {
   cr_assert_eq(duplicate_count("abcde"), 0);
   cr_assert_eq(duplicate_count("abcdea"), 1);
   cr_assert_eq(duplicate_count("indivisibility"), 1);
+  cr_assert_eq(
+      duplicate_count("5n81QjhVioydABFCVz5hbGgJCk8cN8j3VG1uuhqfbU2PRGEiII"),
+      14);
 }
